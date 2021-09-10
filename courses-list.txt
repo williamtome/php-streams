@@ -1,0 +1,12 @@
+Curso Introdução ao PHP: Primeiros passos com a linguagem
+Curso PHP e MySQL: Introdução a uma webapp
+Curso Avançando com PHP: Arrays, Strings, Função e Web
+Curso PHP Strings: Operações e expressões regulares
+Curso PHP: Manipulando coleções com Arrays
+Curso PHP: Dominando as Collections
+Curso Orientação a Objetos com PHP: Classes, métodos e atributos
+Curso Avançando com Orientação a Objetos com PHP: Herança, Polimorfismo e Interfaces
+Curso PHP Brasil: Validação de dados no padrão nacional
+Curso PHP Composer: Dependências, Autoload e Publicação
+Curso PHP Exceptions: Tratamento de erros
+Curso PHP I/O: Trabalhando com arquivos e streams
