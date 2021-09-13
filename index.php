@@ -2,5 +2,10 @@
 
 require_once 'FileHandle.php';
 
-$courses = new \WilliamT\PhpStreams\FileHandle('courses-list.txt');
-echo $courses->readForLine();
+try {
+    $courses = new \WilliamT\PhpStreams\FileHandle('courses.txt', 'a');
+
+    $courses->write("\nabc123");
+} catch (\Exception $e) {
+    echo "Erro: {$e->getMessage()}";
+}
