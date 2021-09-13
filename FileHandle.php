@@ -7,10 +7,13 @@ class FileHandle
     private $file;
     private $filename;
 
-    public function __construct(string $filename)
+    public function __construct(string $filename, string $mode)
     {
         $this->filename = $filename;
-        $this->file = fopen($this->filename, 'r');
+
+        $this->validateMode($mode);
+
+        $this->file = fopen($this->filename, $mode);
     }
 
     public function readAll(): string
@@ -30,8 +33,20 @@ class FileHandle
         return $line;
     }
 
+    public function write(string $word)
+    {
+        fwrite($this->file, $word);
+    }
+
     public function __destruct()
     {
         fclose($this->file);
+    }
+
+    private function validateMode(string $mode)
+    {
+        if (strlen($mode) > 1) {
+            throw new \Exception('Modo de abertura inválido.');
+        }
     }
 }
