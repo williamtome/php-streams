@@ -1,6 +1,6 @@
-Curso Introdução ao PHP: Primeiros passos com a linguagem
+Curso Introdução ao PHP parte I: Primeiros passos com a linguagem
 Curso PHP e MySQL: Introdução a uma webapp
-Curso Avançando com PHP: Arrays, Strings, Função e Web
+Curso Avançando com PHP parte I: Arrays, Strings, Função e Web
 Curso PHP Strings: Operações e expressões regulares
 Curso PHP: Manipulando coleções com Arrays
 Curso PHP: Dominando as Collections
