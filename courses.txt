@@ -1,3 +1,5 @@
-
 Design Patterns I: Boas Práticas de Programação
 Design Patterns II: Boas Práticas de Programação
+Curso de PDO: Persistência com PHP
+Curso de Laravel: Criando Aplicações para a Web
+Manipulando Arrays com PHP
